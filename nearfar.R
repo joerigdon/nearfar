@@ -3,12 +3,12 @@
 #install.packages("sem")
 #install.packages("GenSA")
 #install.packages("AER")
-#library("nbpMatching")
-#library("sem")
-#library("GenSA")
-#library("AER")
-#library(MASS)
-#library(car)
+library("nbpMatching")
+library("sem")
+library("GenSA")
+library("AER")
+library(MASS)
+library(car)
 
 #Function to compute rank-based Mahalanobis distance matrix between each pair based on observed covariates (make "near"); Paul Rosenbaum is author
 #X is a matrix of observed covariates with n rows (observations) and p columns (variables)
